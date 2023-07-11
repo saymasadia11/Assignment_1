@@ -1,0 +1,62 @@
+        
+/* .half-ellipse1 { border-radius: 50% / 100% 100% 0 0; }
+.half-ellipse2 { border-radius: 50% / 0 0 100% 100%; }
+.half-ellipse3 { border-radius: 100% 0 0 100% / 50%; }
+.half-ellipse4 { border-radius: 0 100% 100% 0 / 50%; }
+
+.half-ellipse {
+  background: #32557f;
+  width: 150px;
+  height: 75px;
+} */
+    
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* nav related style */
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: darksalmon;   
+
+}
+
+.logo-img{
+    width: 50px;
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    
+}
+
+.nav-menu{
+    display: flex;
+    list-style: none;
+    /* justify-content: space-around; */
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+.menu{
+    /* margin-right: 10px;
+    padding: 7px;
+    font-size: 20px;
+    cursor: pointer; */
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+    
+
+    
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+.menu a:hover{
+    color: rgb(105, 130, 255);
+}
