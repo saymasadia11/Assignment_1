@@ -91,6 +91,7 @@
     background-color: rgb(165, 42, 52);
     color: aliceblue;
     padding-left: 5px;
+    border-radius: 5px;
 }
   
 /* service related style */
@@ -162,9 +163,9 @@
     margin-left: 20%;
     padding-top: 20px;
 }
-.insta-card:hover{
+/* .insta-card:hover{
     color: brown;
-}
+} */
 .insta-container{
     text-align: center;
     margin-top: 40px;
@@ -179,7 +180,7 @@
     
     
 }
-.insta-img:hover{
+ /* .insta-img:hover{ */
     color: brown;
 }
 .insta-title{
@@ -190,4 +191,34 @@
 }
 .insta-desc{
     padding: 15px;
+}
+
+/* Subscription related style */
+.sub-container{
+    background-image: url("../images/Rectangle\ 9.png");
+    height: 220px;
+    width: 57%;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.sub-title{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+
+
+}
+.sub-desc{
+    padding: 15px;
+
+}
+.email{
+    color: black;
+    height: 30px;
+    width: 250px;
 }
