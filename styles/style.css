@@ -1,14 +1,5 @@
         
-/* .half-ellipse1 { border-radius: 50% / 100% 100% 0 0; }
-.half-ellipse2 { border-radius: 50% / 0 0 100% 100%; }
-.half-ellipse3 { border-radius: 100% 0 0 100% / 50%; }
-.half-ellipse4 { border-radius: 0 100% 100% 0 / 50%; }
 
-.half-ellipse {
-  background: #32557f;
-  width: 150px;
-  height: 75px;
-} */
     
 *{
     margin: 0px;
@@ -42,10 +33,7 @@
     text-decoration: none;
 }
 .menu{
-    /* margin-right: 10px;
-    padding: 7px;
-    font-size: 20px;
-    cursor: pointer; */
+    
     list-style: none;
     padding: 10px;
     font-size: 20px;
@@ -62,6 +50,7 @@
 }
 
 /* banner related style starts here */
+
 .lotus-img{
     width: 200px;
     height: 300px;
@@ -87,11 +76,16 @@
     color: aliceblue;
 }
 .btn{
-    padding: 12px;
-    background-color: rgb(165, 42, 52);
+    padding: 10px;
+    background-color: rgb(147, 59, 94);
     color: aliceblue;
     padding-left: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    color: rgb(11, 12, 12);
 }
   
 /* service related style */
@@ -328,5 +322,59 @@
    padding: 20px;
    margin-left: 20px;
 }
+/* category related style */
+
+.cat-1{
+    background-image: url("../images/background_4.avif");
+    height: 300px;
+    width: 400px;
+    padding: 10px;
+
+}
+.cat-2{
+    background-image: url("../images/Rectangle\ 9.png");
+    height: 300px;
+    width: 400px;
+    padding: 10px;
+
+}
+.cat-3{
+    background-image: url("../images/background_2.jpg");
+    height: 300px;
+    width: 400px;
+    padding: 10px;
+
+}
+
+.cat-item{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+    text-align: center;
+    
+    
+    
+}
+.category-container{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
 
 
+}
+.cat-title{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+
+
+}
+.cat-head{
+    text-align: center;
+    padding-top: 100px;
+
+}
+.cat-button{
+    margin-top: 20px;
+}
