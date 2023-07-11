@@ -92,3 +92,34 @@
     color: aliceblue;
     padding-left: 5px;
 }
+  
+/* service related style */
+
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(146, 163, 177);
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 20vh;
+
+}
+.service-img{
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    
+}
+.service-desc{
+    
+    padding: 5px;
+    
+
+}
+.service-item{
+    
+    text-align: center;
+}
